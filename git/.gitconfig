@@ -1,0 +1,28 @@
+[user]
+    name = Alexandre L'Heureux
+    email = alheureux88@gmail.com
+[color]
+    diff = true
+    branch = true
+    status = true
+[merge]
+    tool = vimdiff
+[branch "master"]
+    rebase = true
+[branch]
+    autosetuprebase = always
+[push]
+    default = tracking
+[core]
+    eol = lf
+    autocrlf = input
+[receive]
+    denyNonFastForwards = true
+[alias]
+    bak = backup
+    d = difftool
+    ci = commit -v
+    co = checkout
+    br = branch
+    st = status
+    ps = -p status
